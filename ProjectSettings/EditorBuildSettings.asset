@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Meny.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/PlayGame.unity
-    guid: 8e49268619a096044a3692252bd1b990
+    path: Assets/Scenes/Play.unity
+    guid: 8fae8857bd11eb441ba9cc1bd00d11d7
   - enabled: 1
     path: Assets/Scenes/MemSecret.unity
     guid: b3f576a6f1f05864b82f3cb7dbc94090

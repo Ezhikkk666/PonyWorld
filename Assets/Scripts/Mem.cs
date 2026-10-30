@@ -1,15 +1,14 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadSecret()
+    public void Mem()
     {
         SceneManager.LoadScene("MemSecret");
     }
 
-    public void BackToMenu()
+    public void Meny()
     {
         SceneManager.LoadScene("Meny");
     }
