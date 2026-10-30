@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/PlayGame.unity
     guid: 8e49268619a096044a3692252bd1b990
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/MemSecret.unity
     guid: b3f576a6f1f05864b82f3cb7dbc94090
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
