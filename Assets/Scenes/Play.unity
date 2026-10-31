@@ -2589,7 +2589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699921414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c3661861b0414849a2de60d71b6d1d1, type: 3}
   m_Name: 
@@ -3052,6 +3052,7 @@ GameObject:
   - component: {fileID: 2075380208}
   - component: {fileID: 2075380207}
   - component: {fileID: 2075380206}
+  - component: {fileID: 2075380209}
   m_Layer: 5
   m_Name: MinigamesButton
   m_TagString: Untagged
@@ -3122,7 +3123,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2075380207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075380209}
+        m_TargetAssemblyTypeName: MgSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MinigamesScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2075380207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3161,6 +3174,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075380203}
   m_CullTransparentMesh: 1
+--- !u!114 &2075380209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075380203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd89344f1d9ff92469f11729fbedc18b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MgSceneLoader
 --- !u!1 &2146941975
 GameObject:
   m_ObjectHideFlags: 0

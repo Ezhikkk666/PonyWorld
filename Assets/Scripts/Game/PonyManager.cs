@@ -32,6 +32,7 @@ public class PonyManager : MonoBehaviour
             return; 
         }
         Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         foreach (var _pony in _allPonies)
         {

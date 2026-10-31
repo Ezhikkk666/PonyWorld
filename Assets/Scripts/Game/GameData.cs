@@ -31,6 +31,7 @@ public class GameData : MonoBehaviour
             return;
         }
         Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         _resource1Amount = _resource1 != null ? _resource1.StartingAmount : 0;
         _resource2Amount = _resource2 != null ? _resource2.StartingAmount : 0;
