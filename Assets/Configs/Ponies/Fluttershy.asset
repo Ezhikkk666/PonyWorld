@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fluttershy
   m_EditorClassIdentifier: Assembly-CSharp::PonyDefinition
   _id: fluttershy
-  _displayName: 
+  _displayName: fluttershy
   _description: 
   _icon: {fileID: 0}
   _baseBuyPrice: 100

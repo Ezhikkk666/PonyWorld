@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rarity
   m_EditorClassIdentifier: Assembly-CSharp::PonyDefinition
   _id: rarity
-  _displayName: 
+  _displayName: rarity
   _description: 
   _icon: {fileID: 0}
   _baseBuyPrice: 500
