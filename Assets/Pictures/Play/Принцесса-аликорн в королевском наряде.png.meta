@@ -4,7 +4,8 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6679061450363307379
-    second: "\u041F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430-\u0430\u043B\u0438\u043A\u043E\u0440\u043D \u0432 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u043E\u043C \u043D\u0430\u0440\u044F\u0434\u0435_0"
+    second: "\u041F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430-\u0430\u043B\u0438\u043A\u043E\u0440\u043D
+      \u0432 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u043E\u043C \u043D\u0430\u0440\u044F\u0434\u0435_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -56,9 +57,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
-  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -78,8 +77,8 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
+    compressionQuality: 100
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -180,7 +179,9 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u041F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430-\u0430\u043B\u0438\u043A\u043E\u0440\u043D \u0432 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u043E\u043C \u043D\u0430\u0440\u044F\u0434\u0435_0"
+      name: "\u041F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0430-\u0430\u043B\u0438\u043A\u043E\u0440\u043D
+        \u0432 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u043E\u043C
+        \u043D\u0430\u0440\u044F\u0434\u0435_0"
       rect:
         serializedVersion: 2
         x: 0
