@@ -9,6 +9,7 @@ public class PonyShopCard : MonoBehaviour
     [SerializeField] private TMP_Text _nameText;
     [SerializeField] private TMP_Text _levelText;
     [SerializeField] private TMP_Text _incomeText;
+    [SerializeField] private TMP_Text _priceText;
     [SerializeField] private Button _actionButton;
     [SerializeField] private TMP_Text _actionButtonText;
 
@@ -19,6 +20,7 @@ public class PonyShopCard : MonoBehaviour
     {
         _definition = definition;
         _ponyId = definition.Id;
+        _priceText.text = definition.BaseBuyPrice.ToString();
 
         _iconImage.sprite = definition.Icon;
         _nameText.text = definition.DisplayName;

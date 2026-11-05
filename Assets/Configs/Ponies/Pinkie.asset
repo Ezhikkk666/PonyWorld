@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pinkie
   m_EditorClassIdentifier: Assembly-CSharp::PonyDefinition
   _id: pinkie
-  _displayName: 
+  _displayName: pinkie
   _description: 
   _icon: {fileID: 0}
   _baseBuyPrice: 250

@@ -26,6 +26,7 @@ public class PonyManager : MonoBehaviour
 
     private void Awake()
     {
+        
         if (Instance != null && Instance != this) 
         { 
             Destroy(gameObject); 
@@ -77,8 +78,7 @@ public class PonyManager : MonoBehaviour
     public PonyDefinition GetDefinition(string id)
         => _poniesById.TryGetValue(id, out var def) ? def : null;
 
-    public PonyState GetState(string id)
-        => _states.TryGetValue(id, out var st) ? st : null;
+    public PonyState GetState(string id) => _states.TryGetValue(id, out var st) ? st : null;
 
     public int GetCurrentPrice(PonyDefinition def)
     {

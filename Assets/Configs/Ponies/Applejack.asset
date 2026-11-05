@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Applejack
   m_EditorClassIdentifier: Assembly-CSharp::PonyDefinition
   _id: applejack
-  _displayName: 
+  _displayName: applejack
   _description: 
   _icon: {fileID: 0}
   _baseBuyPrice: 50

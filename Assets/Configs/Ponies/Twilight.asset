@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Twilight
   m_EditorClassIdentifier: Assembly-CSharp::PonyDefinition
   _id: twilight
-  _displayName: 
+  _displayName: twilight
   _description: 
   _icon: {fileID: 0}
   _baseBuyPrice: 1000
